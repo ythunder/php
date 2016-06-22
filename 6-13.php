@@ -21,9 +21,9 @@ $students = array(
 );//10个学生的学号和姓名，用数组存储
 
 //使用循环结构遍历数组,获取学号和姓名  
-foreach($students as $v)
+foreach($students as $key=>$v)
 { 
-    echo $v;//输出（打印）姓名
+    echo $key."：".$v;//输出（打印）姓名
 	echo "<br />";
 }
 ?>
